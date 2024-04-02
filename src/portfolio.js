@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/chinmayee86/",
   linkedin: "https://www.linkedin.com/in/chinmayeependyala-889ba51a3/",
   gmail: "chinmayeependyala@gmail.com",
-  
+
   display: true // Set true to display this section, defaults to false
 };
 
@@ -44,12 +44,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate Full Stack Developer wanting to explore every Tech Stack",
+  subTitle:
+    "Passionate Full Stack Developer wanting to explore every Tech Stack",
   skills: [
     emoji(
       "⚡ Construct extremely interactive front end or user interfaces for your web applications."
     ),
-    emoji("⚡ Employ Spring MVC with Spring Boot to create J2EE apps and RESTful web services."),
+    emoji(
+      "⚡ Employ Spring MVC with Spring Boot to create J2EE apps and RESTful web services."
+    ),
     emoji(
       "⚡ Strong understanding of key Java concepts such as Stream APIs, collections, exception handling, multithreading."
     )
@@ -113,14 +116,14 @@ const educationInfo = {
       logo: require("./assets/images/ucm.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "Jan 2023 - Present",
-      desc: "Enriched my academic experience by learning about cutting-edge technologies like Machine Learning, Artificial Intelligence, and Big data, as well as a wide range of computer science courses like algorithms, compiler design, database systems, and operating systems with a 3.8CGPA.",
+      desc: "Enriched my academic experience by learning about cutting-edge technologies like Machine Learning, Artificial Intelligence, and Big data, as well as a wide range of computer science courses like algorithms, compiler design, database systems, and operating systems with a 3.8CGPA."
     },
     {
       schoolName: "SRKR Engineering College",
       logo: require("./assets/images/srkr.jpeg"),
       subHeader: "Bachelor of Technology in Information Technology",
       duration: "July 2017 - Aug 2021",
-      desc: "Ranked top 10% in the program. Expertise in algorithms and data structures, as well as knowledge of computer networking, web technologies, operating systems, and software development processes. Gained a solid grasp of numerous subjects, laying the groundwork for a well-rounded skill set.",
+      desc: "Ranked top 10% in the program. Expertise in algorithms and data structures, as well as knowledge of computer networking, web technologies, operating systems, and software development processes. Gained a solid grasp of numerous subjects, laying the groundwork for a well-rounded skill set."
     }
   ]
 };
@@ -131,7 +134,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend Development", 
+      Stack: "Frontend Development",
       progressPercentage: "60%"
     },
     {
@@ -203,8 +206,10 @@ const bigProjects = {
   subtitle: "My journey through the coursework",
   projects: [
     {
-      projectName: "Vehicle Surveillance At Parking Spaces of Gated Society and Business Complexes",
-      projectDesc: "Utilized an Automated Number Plate Recognition (ANPR) system for meticulous vehicle log management within a Residential Complex or Gated Society. Employed CCTV footage as input for a sophisticated Machine Learning algorithm to extract vehicle numbers. Engineered a streamlined process involving image acquisition, plate recognition, segmentation, and character identification. Developed a dynamic front-end interface with JavaServer Pages (JSP), CSS, and Bootstrap for enhanced user experience. Implemented JDBC for robust data connectivity, seamlessly integrating MySQL for efficient data handling and analysis.",
+      projectName:
+        "Vehicle Surveillance At Parking Spaces of Gated Society and Business Complexes",
+      projectDesc:
+        "Utilized an Automated Number Plate Recognition (ANPR) system for meticulous vehicle log management within a Residential Complex or Gated Society. Employed CCTV footage as input for a sophisticated Machine Learning algorithm to extract vehicle numbers. Engineered a streamlined process involving image acquisition, plate recognition, segmentation, and character identification. Developed a dynamic front-end interface with JavaServer Pages (JSP), CSS, and Bootstrap for enhanced user experience. Implemented JDBC for robust data connectivity, seamlessly integrating MySQL for efficient data handling and analysis.",
       footerLink: [
         {
           name: "Github Repository (Coming soon)",
@@ -213,8 +218,10 @@ const bigProjects = {
       ]
     },
     {
-      projectName: "Implementation of AR for Digital Classrooms and VR for Entertainment",
-      projectDesc: "Developed a sophisticated digital classroom application facilitating instructors to seamlessly project videos onto a live screen through tailored picture cards. Integrated ORB-based image recognition to discern pivotal elements within the picture cards, subsequently enabling a meticulous comparison with a pre-existing database to seamlessly integrate videos, frame by frame, within the masked area of the real environment utilizing OpenCV. Furthermore, crafted an entertaining application enabling users to showcase a cartoon image extracted from a designated episode scene, which is then seamlessly projected onto the screen in its entirety for recreational purposes.",
+      projectName:
+        "Implementation of AR for Digital Classrooms and VR for Entertainment",
+      projectDesc:
+        "Developed a sophisticated digital classroom application facilitating instructors to seamlessly project videos onto a live screen through tailored picture cards. Integrated ORB-based image recognition to discern pivotal elements within the picture cards, subsequently enabling a meticulous comparison with a pre-existing database to seamlessly integrate videos, frame by frame, within the masked area of the real environment utilizing OpenCV. Furthermore, crafted an entertaining application enabling users to showcase a cartoon image extracted from a designated episode scene, which is then seamlessly projected onto the screen in its entirety for recreational purposes.",
       footerLink: [
         {
           name: "Check out the code",
@@ -224,7 +231,8 @@ const bigProjects = {
     },
     {
       projectName: "Hand Gesture Controlled Virtual Calculator",
-      projectDesc: "Crafted an advanced hand gesture recognition system leveraging extensive feature repositories and gesture labels, enabling real-time detection for demonstrating a virtual calculator. Implemented the Mediapipe framework to collect data for nineteen hand gestures, facilitating the creation of a virtual calculator with basic mathematical operations. Utilized palm detection and hand landmark models within Mediapipe to identify hands and estimate 21 hand knuckle coordinates, pivotal for the hand gesture recognition system. Subsequently, integrated OpenCV to materialize the virtual calculator.",
+      projectDesc:
+        "Crafted an advanced hand gesture recognition system leveraging extensive feature repositories and gesture labels, enabling real-time detection for demonstrating a virtual calculator. Implemented the Mediapipe framework to collect data for nineteen hand gestures, facilitating the creation of a virtual calculator with basic mathematical operations. Utilized palm detection and hand landmark models within Mediapipe to identify hands and estimate 21 hand knuckle coordinates, pivotal for the hand gesture recognition system. Subsequently, integrated OpenCV to materialize the virtual calculator.",
       footerLink: [
         {
           name: "Check out the code",
@@ -265,7 +273,7 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -283,7 +291,7 @@ const blogSection = {
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
+    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
